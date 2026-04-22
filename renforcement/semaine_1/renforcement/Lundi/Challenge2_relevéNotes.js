@@ -4,7 +4,7 @@ let eleves = [
     
   },
   { 
-    nom: "sami", note: 2
+    nom: "sami", note: 20
   },
   { 
     nom: "maroih", note: 5
@@ -31,7 +31,7 @@ for (let i = 0; i < eleves.length; i++) {
     min = n;
   }
 
-  if (n > 10) {
+  if (n >= 10) {
     counter++;
   }
 }
@@ -45,4 +45,4 @@ console.log("=============================");
 console.log("max=", max);
 console.log("=============================");
 console.log("min =", min);
-console.log("les succes =", counter);
+console.log('total des sucsses',counter)
